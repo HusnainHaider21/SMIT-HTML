@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Page</title>
+    <link rel="stylesheet" href="/style.css">
+   <style>
+    .img-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        max-width: 900px;
+    }
+
+</style>
+</head>
+<body>
+    <header>
+        <div class="link-container">
+        <a href="./index.html" class="header">Home</a>
+        <a href="/About.html" class="header">About</a>
+        <a href="/Gallery.html" class="header">Gallery</a>
+        <a href="/Media.html" class="header">Media</a>
+        <a href="./index.html" class="header">Contact</a>
+        <a href="./index.html" class="header">Login</a>
+        <a href="./index.html" class="header">Register</a>
+        </div>
+        <hr>
+        <h2>This is Gallery Page</h2>
+        <hr>
+    </header>
+    <main>
+
+        <div class="img-container">
+            <img src="/images/first-image.jpeg" alt="first-image" width="20%">
+            <img src="/images/2nd-image.avif" alt="second-image" width="20%">
+            <img src="/images/3rd-image.jpg" alt="third-image" width="20%">
+            <img src="/images/4th-image.jpg" alt="fourth-image" width="20%" id="image-4">
+        </div>
+        <hr>
+        <h3>HTML5: Figure and Figma Caption</h3>
+        <h4>&lt;figure&gt; &lt;figure&gt;</h4>
+        <p>Image often come with captions.HTML5 has introduced a new elemint to contain images and their caption so that the two are associated You can have more than one image inside the element as long as they all share the same caption. </p>
+        <h3>&lt;figcaption&gt; &lt;figcaption&gt;</h3>
+        <p>The element has been added to HTML5 in order to allow web page authors to add a caption to an image. <br>
+        Before these element were created there was no way to associated an element with its caption. <br>
+     Older browsers that do not understand HTML5 elements simply ignore the new elements and display the content of them. </p>
+     <img src="/images/first-image.jpeg" alt="first-image" width="30%">
+     <p>The image is wonderful.The caption is in the figcaption tags.</p>
+      <img src="/images/3rd-image.jpg" alt="third-image" width="30%">
+      <p>This is second image . The caption is in the figcaption tags.</p>
+    </main>
+    <footer>
+        <hr>
+        <center>
+            Copyright &copy;2024 rights reserved.
+        </center>
+    </footer>
+
+    
+</body>
+</html>
