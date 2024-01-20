@@ -4,8 +4,106 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register Page</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .register-container{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+        }
+        form{
+            border: 2px solid black;
+            padding: 8px;
+        }
+    </style>
 </head>
 <body>
+    <header>
+        <div class="link-container">
+        <a href="./index.html" class="header">Home</a>
+        <a href="/About.html" class="header">About</a>
+        <a href="/Gallery.html" class="header">Gallery</a>
+        <a href="/Media.html" class="header">Media</a>
+        <a href="/Contact.html" class="header">Contact</a>
+        <a href="/login.html" class="header">Login</a>
+        <a href="/Register.html" class="header">Register</a>
+        </div>
+        <hr>
+        <center>
+        <h2>This is Login
+         Page</h2>
+         </center>
+        <hr>
+    </header>
+    <main>
+        <div class="register-container">
+            <form>
+                <label for="fname">Full Name</label>
+                <br>
+                <input type="text" name="fname" id="fname" placeholder="Full Name">
+                <br>
+                <br>
+                <label for="Email">Email</label>
+                <br>
+                <input type="text" name="Email" id="Email" placeholder="Email">
+                <br>
+                <br>
+                <label for="Password">Password</label>
+                <br>
+                <input type="password" name="Password" id="Password" placeholder="Password">
+                <br>
+                <br>
+                <label for="Gender">Gender</label>
+                <br>
+                <label for="Male">Male</label>
+                <input type="radio" name="Male" id="Male">
+                <label for="female">Female</label>
+                <input type="radio" name="female" id="female">
+                <br>
+                <br>
+                <label for="Hobbies">Hobbies</label><br>
+                <label for="Music">Music</label>
+                <input type="checkbox" name="Music" id="Music">
+                <label for="Art">Art</label>
+                <input type="checkbox" name="Art" id="Art">
+                <label for="Painting">Painting</label>
+                <input type="checkbox" name="Painting" id="Painting">
+                <br>
+                <br>
+                <label for="Country">Country :</label>
+                <br>
+                 <select name="Country" id="Country">
+                     <option value="Pakistan">Pakistan</option>
+                    <option value="India">India</option>
+                    <option value="England">England</option>
+                    <option value="Turkey">Turkey</option>
+                 </select>
+                 <br>
+                 <br>
+                 <label for="date">DOB:</label>
+                 <br>
+                 <input type="date" name="date" id="date">
+                <br>
+                <br>
+                 <label for="photo">Upload your photo:</label><br>
+                 <input type="file" name="photo" id="photo" accept="/image*"><br>
+                 <br>
+                 <button style="color: gray;">
+                    Register
+                 </button><br>
+                 <br>
+                 <a href="/index.html">Already a user?</a>
+                </form>
+        </div>
+    </main>
+
+    <footer>
+        <hr>
+        <center>
+            Copyright &copy;2024 rights reserved.
+        </center>
+    </footer>
     
     
 </body>
