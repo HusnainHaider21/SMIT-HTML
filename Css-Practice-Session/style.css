@@ -6,7 +6,8 @@
 .nav{
     background-color: black;
     border: 2px solid red;
-    padding: 8px;
+    display: flex;
+    padding: 6px;
 }
 #logo{
     color: #f08804;
