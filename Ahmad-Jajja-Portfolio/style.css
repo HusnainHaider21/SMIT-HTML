@@ -57,6 +57,9 @@ button:hover {
 span{
     color: #64FFDA;
 }
+span:hover{
+    border-bottom: 1.5px solid #64FFDA;
+}
 
 .border:hover{
     color: #64FFDA;
@@ -80,6 +83,38 @@ span{
 
 .ali{
     color: #64FFDA;
+}
+/** About-section **/
+.about-section{
+    display: flex;
+}
+
+.about-hr{
+    width: 350px;
+    margin: 20px 0px 0px 300px;
+    border-top: 2px solid #8892b0;
+}
+
+.about-para{
+    width: 1200px;
+    height: 970px;
+    display: flex;
+}
+
+.about-para p{
+   font-weight: 700;
+    
+}
+
+.ahmad-img{
+    width: 250px;
+    height: 450px;
+    background-image: url("portfilio-images/Ahmad-jajja-img.jpg");
+    background-size: cover;
+    margin-top: 10px;
+     margin-left: 4px;
+    outline: 2px solid #64FFDA;
+    outline-offset: 5px;
 }
 
 
