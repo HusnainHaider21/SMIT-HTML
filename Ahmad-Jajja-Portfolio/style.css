@@ -16,6 +16,7 @@ body{
     width: 100%;
     
     
+    
 }
 ul{
     display: flex;
@@ -142,6 +143,26 @@ span:hover{
     content: "▹";
     color: #64FFDA;
     margin-right: 5px;
+}
+/** Work-section **/
+
+.SMIT{
+    height: 130px;
+    border-left: 2px solid #8892b0;
+    margin-left: 130px;
+    margin-top: 50px;
+
+}
+
+.Work-information{
+    position: relative;
+    left: 150px;
+    bottom: 130px;
+}
+
+.Work-information li{
+    position: relative;
+    right: 520px;
 }
 
 
