@@ -1,3 +1,3 @@
 # SMIT-HTML
-This is my first experience  in SMIT learn github
+I have completed my html and now starting css.
 <h1>Helloworld</h1>
